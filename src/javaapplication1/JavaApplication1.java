@@ -43,6 +43,17 @@ public class JavaApplication1 {
         x << 1 - 1 bit left shift
         x >> 2 - 2 bit right shift
         */
+         
+       if (a > b)
+            System.out.println("a > b");
+       else if (a < b)
+       {
+            System.out.println("a < b");  
+       }
+       else
+       {
+            System.out.println("a == b");
+       }
     }
     
 }
