@@ -55,7 +55,7 @@ public class JavaApplication1 {
             System.out.println("a == b");
         }
        
-        int num = 3; 
+        int num = 4; 
         switch (num)
         {
             case 1:
@@ -67,6 +67,9 @@ public class JavaApplication1 {
             default:
                 System.out.println("Inny przypadek");
         }
+        
+        String conditionalOperator = num == 4 ? "tak" : "nie";
+        System.out.println(conditionalOperator);
     }
     
 }
