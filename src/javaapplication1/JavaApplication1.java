@@ -86,6 +86,15 @@ public class JavaApplication1 {
         int[] tab2 = {10, 20, 30, 40, 50, 60};
         
         System.out.println(tab2[tab2.length-1]);
+        
+        int[][] tab3 = new int[2][2];
+        
+        tab3[0][0] = 1;
+        tab3[0][1] = 2;
+        tab3[1][0] = 3;
+        tab3[1][1] = 4;
+        
+        System.out.println(tab3[1][0]);
     }
     
 }
