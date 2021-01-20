@@ -70,6 +70,22 @@ public class JavaApplication1 {
         
         String conditionalOperator = num == 4 ? "tak" : "nie";
         System.out.println(conditionalOperator);
+        
+        int[] tab = new int[5];
+        
+       //tab = new int[5];
+        
+        tab[0] = 1;
+        tab[1] = 2;
+        tab[2] = 3;
+        tab[3] = 4;
+        tab[4] = 5;        
+        
+        System.out.println(tab[0]);
+        
+        int[] tab2 = {10, 20, 30, 40, 50, 60};
+        
+        System.out.println(tab2[tab2.length-1]);
     }
     
 }
