@@ -95,6 +95,51 @@ public class JavaApplication1 {
         tab3[1][1] = 4;
         
         System.out.println(tab3[1][0]);
+        
+        System.out.println("tab elements:");
+        int i = 0;
+        while(i < tab.length)
+        {           
+            System.out.println(tab[i]);
+
+            i++;
+        } 
+        i = 0;
+        System.out.println("tab2 elements:");
+        do
+        {
+            System.out.println(tab2[i]);
+            i++; 
+        } while(i < tab2.length);
+        System.out.println("tab3 elements:");
+        for(int j = 0; j < tab3.length; j++)
+        {   
+            for(int k = 0; k < tab3[j].length; k++)
+            { 
+                System.out.print(j + " ");
+                System.out.print(k + " ");
+                System.out.println(tab3[j][k]);           
+            }
+        }
+        System.out.println("tab elements (enhanced for loop):");
+        for(int el: tab)
+        {
+            System.out.println(el);
+        }
+        System.out.println("odd numbers from 0 to 10:");
+        for (int j = 0; j < 10; j++)
+        {
+            if (j % 2 == 0)
+                continue; 
+            System.out.println(j);
+        }
+        System.out.println("break if j == 7");
+        for (int j = 0; j < 10; j++)
+        {
+            System.out.println(j);
+            if (j == 7)
+                break; 
+        }
     }
     
 }
