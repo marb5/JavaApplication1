@@ -33,6 +33,16 @@ public class JavaApplication1 {
         System.out.println(result1);
         System.out.println(result2);
         System.out.println(1.0 / 5);
+        
+        /*
+        0 - false 1 - true
+        ~ - not
+        & - and
+        | - or
+        ^ - XOR
+        x << 1 - 1 bit left shift
+        x >> 2 - 2 bit right shift
+        */
     }
     
 }
