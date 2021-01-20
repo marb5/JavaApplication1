@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package javaapplication1;
 
 /**
@@ -10,13 +5,21 @@ package javaapplication1;
  * @author Marcin
  */
 public class JavaApplication1 {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hello world!");
+        String name = "Marcin";
+        int a = 2;
+        int b = 7;
+        int c;
+        float f = 1.23f;
+        double d = 45.67890;
+        //byte, short, long
+        //char
+        
+        c = a + b;
+        
+        System.out.println("Cześć " + name + "!");
+        System.out.println("Liczba: " + c);
     }
     
 }
